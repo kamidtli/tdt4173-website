@@ -7,3 +7,12 @@
   justify-content: center;
   color: white;
 }
+
+hr {
+  background-color: #696969;
+}
+
+.datepicker {
+  padding: 8px;
+  border-radius: 4px;
+}
