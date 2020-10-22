@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import { Alert } from 'reactstrap';
+import About from './components/About';
 
 function App() {
   return (
     <div className="App">
-      <Alert color="success">Everything is working!</Alert>
+      <div className="container">
+        <About />
+      </div>
     </div>
   );
 }
