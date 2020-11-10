@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Rainfall prediction",
+  "name": "TDT4173 - Rainfall prediction",
   "icons": [
     {
       "src": "favicon.ico",
