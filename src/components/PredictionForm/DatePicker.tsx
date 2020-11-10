@@ -15,6 +15,6 @@ export default function CustomDatePicker(props: Props) {
   }
 
   return (
-    <DatePicker className="datepicker" selected={new Date(props.date)} onChange={date => handleChange(date)} />
+    <DatePicker className="datepicker" selected={new Date(props.date)} onChange={date => handleChange(date)} maxDate={new Date()}/>
   )
 }
