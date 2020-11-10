@@ -1,27 +1,17 @@
 import React from 'react';
 import './App.css';
-import { Container, Row, Col } from 'reactstrap';
-import About from './components/About';
+import { Container } from 'reactstrap';
 import PredictionForm from './components/PredictionForm/PredictionForm';
-import Center from './components/Center';
+import About from './components/About';
 
 function App() {
   return (
     <div className="App">
       <Container>
-        <Row>
-          <Col>
-            <Center>
-              <PredictionForm />
-            </Center>
-          </Col>
-        </Row>
-        <hr />
-        <Row>
-          <Col>
-            <About />
-          </Col>
-        </Row>
+        <div className="spacer-large" />
+        <PredictionForm />
+        <div className="spacer-large" />
+        <About />
       </Container>
     </div>
   );

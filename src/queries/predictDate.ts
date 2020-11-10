@@ -1,7 +1,7 @@
-const url = "http://10.0.0.18:5000/"
+const url = "https://europe-west2-tdt4173-292607.cloudfunctions.net/api?date="
 
 export async function getPredictionFromDate(date: string) {
-  let result: any = await fetch(url + date)
+  let result: any = await fetch(url + date, { mode: 'cors' })
     .then(res => res.json())
     .then(data => {
       return data

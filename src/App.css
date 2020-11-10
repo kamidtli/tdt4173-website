@@ -16,3 +16,23 @@ hr {
   padding: 8px;
   border-radius: 4px;
 }
+
+.btn {
+  margin: 1rem;
+}
+
+.element-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.spacer {
+  height: 2rem;
+}
+
+.spacer-large {
+  height: 5rem;
+}
