@@ -22,7 +22,23 @@ export default function About() {
               <Media heading>
                 About
               </Media>
-              This is a website created to showcase a project for the course TDT4173 Machine Learning at NTNU, Trondheim. A set of machine learning models were created to explore the possibilities of using AI to predict the downfall for a specific area. This model predicts precipitation at the weather station located at Voll in Trondheim.
+              This is a website created to showcase a project for the course TDT4173 Machine Learning at NTNU, Trondheim. A set of machine learning models were created to explore the possibilities of using AI to predict the precipitation for a specific area. This model predicts precipitation at the weather station located at Voll in Trondheim.
+            </Media>
+          </Media>
+          <div className="spacer" />
+          <Media>
+            <Media body>
+              <Media heading>
+                <a href="https://github.com/kamidtli/tdt4173-website">Website source code</a>
+              </Media>
+            </Media>
+          </Media>
+          <div className="spacer" />
+          <Media>
+            <Media body>
+              <Media heading>
+                <a href="https://github.com/MattisTrygstad/machine-learning-api/">Google Cloud Function source code</a>
+              </Media>
             </Media>
           </Media>
         </Media>
