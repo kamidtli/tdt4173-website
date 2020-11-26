@@ -40,7 +40,7 @@ export default function PredictionForm() {
             <Media heading>
               {prediction} mm
             </Media>
-            {actual !== null ? <div>Actual rainfall for {date.split('T')[0]}: <strong>{actual}</strong> mm</div> : <div>No data for actual rainfall today</div>}
+            {actual !== null ? <div>Actual precipitation for {date.split('T')[0]}: <strong>{actual}</strong> mm</div> : <div>No data for actual precipitation today</div>}
           </Media>
         </Media>
         <Button color="success" onClick={() => handleNewPrediction()}>New prediction</Button>
