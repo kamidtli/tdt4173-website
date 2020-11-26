@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Alert } from 'reactstrap';
+import { Container } from 'reactstrap';
+import PredictionForm from './components/PredictionForm/PredictionForm';
+import About from './components/About';
 
 function App() {
   return (
     <div className="App">
-      <Alert color="success">Everything is working!</Alert>
+      <Container>
+        <div className="spacer-large" />
+        <PredictionForm />
+        <div className="spacer-large" />
+        <About />
+      </Container>
     </div>
   );
 }
